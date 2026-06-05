@@ -2,24 +2,24 @@
 **Master's Thesis — Aalto University — 2026**
 
 ## Overview
-This repository contains the theoretical model, calibration code, and interactive results dashboard for my master's thesis studying how forward contracts (PPA and CfD) affect strategic bidding behaviour and equilibrium spot prices in electricity markets.
+This repository contains the results dashboard for my master's thesis studying how forward contracts (PPAs and CfDs) affect bidding behaviour and equilibrium spot prices in electricity wholesale markets. 
 
-🔗 [View interactive dashboard](https://chitpham.github.io/thesis-dashboard)
+🔗 [View dashboard](https://chitpham.github.io/thesis-dashboard)
 
 ## Research Question
-How does allocation of forward contract affect spot price through firms’ bidding strategy? And whether CfDs or PPAs outperform another in the sense of reducing spot price?
+How does allocation of forward contract affect spot price through firms’ bidding strategy? And whether one contract type outperforms in the sense of reducing spot price?
 
 ## Repository Structure
-- `docs/` — interactive dashboard (Chart.js, HTML)
-- `code/` — calibration and simulation scripts (Python/R)
-- `data/` — cleaned dataset used for calibration
+- `docs/` — dashboard
+- `code/` — calibration and simulation scripts (Python) (to be updated upon completion)
+- `data/` — cleaned dataset used for calibration (to be updated upon completion)
 
 ## Data
-Raw market data sourced from Elexon and NESO. Cleaned and simulation result data are provided in `data/`.
+Raw market data sourced from public data of Elexon and UK NESO.
 
 ## Key Findings
-1. Bidding is decreasing in contract coverage f — but only up to a threshold f* that varies with renewable output r
-2. No-arbitrage PPA leaves market outcomes unchanged; CfD retains a price effect upon coverage level
+1. Bidding is decreasing in contract coverage f for explictly small/large renewble capacity relative to thermal.
+2. No-arbitrage PPAs leaves market outcomes unchanged; CfDs retains a price effect upon coverage level. 
 3. Contract price-suppressing effects are least visible in winter due to nature of high demand and renewable source scarcity. 
 
 ## Methods
