@@ -1,5 +1,5 @@
 # CfDs and PPAs: How contracts shape spot market outcomes
-**Master's Thesis — Aalto University — 2026 // Chi Pham**
+**Master's Thesis — Aalto University — 2026**
 
 ## Overview
 This repository contains the theoretical model, calibration code, and interactive results dashboard for my master's thesis studying how forward contracts (PPA and CfD) affect strategic bidding behaviour and equilibrium spot prices in electricity markets.
@@ -26,3 +26,6 @@ Raw market data sourced from Elexon and NESO. Cleaned and simulation result data
 - Theoretical model: uniform single-step auction with privately known and stochastic renewable availability.
 - Calibration: UK electricity day-ahead market data, 2024
 - Simulation: Hourly spot prices are simulated by drawing renewable output r from a calibrated seasonal distribution, computing the equilibrium bid function for each hour given observed (and calibrated) market demand, marginal cost, thermal capacity. This is repeated across different values of contract coverage f to generate prices under each scenario.
+
+## Contact
+Author: Chi Pham 
