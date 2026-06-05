@@ -4,9 +4,6 @@
 ## Overview
 This repository contains the results dashboard for my master's thesis studying how forward contracts (PPAs and CfDs) affect bidding behaviour and equilibrium spot prices in electricity wholesale markets. 
 
-🔗 [View dashboard](https://chitpham.github.io/my-thesis.io/)
-
-
 ## Research Question
 How does allocation of forward contract affect spot price through firms’ bidding strategy? And whether one contract type outperforms in the sense of reducing spot price?
 
