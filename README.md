@@ -15,9 +15,7 @@ How does allocation of forward contract affect spot price through firms’ biddi
 - `data/` — cleaned dataset used for calibration
 
 ## Data
-Raw market data sourced from [Elexon / your source].
-Not included due to licensing — available upon request.
-Cleaned and simulation result data are provided in `data/`.
+Raw market data sourced from Elexon and NESO. Cleaned and simulation result data are provided in `data/`.
 
 ## Key Findings
 1. Bidding is decreasing in contract coverage f — but only up to a threshold f* that varies with renewable output r
