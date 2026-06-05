@@ -29,3 +29,6 @@ Raw market data sourced from public data of Elexon and UK NESO.
 
 ## Contact
 Author: Chi Pham 
+
+## Acknowledgements
+Parts of the interactive HTML dashboard were developed with Claude Code
